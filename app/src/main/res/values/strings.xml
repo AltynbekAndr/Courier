@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Sklad</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="text_inside_circle_button_text_normal">настройки</string>
+    <string name="text_outside_circle_button_text_normal">опции</string>
+    <string name="text_ham_button_text_normal">функции</string>
+    <string name="text_ham_button_sub_text_normal">отправка</string>
+
+    <string-array name="otdelenie">
+        <item>Alina</item>
+        <item>BETEK</item>
+        <item>Dali</item>
+        <item>DERMAX</item>
+        <item>KRAFT</item>
+        <item>KNAUF</item>
+    </string-array>
+    <string-array name="avtor">
+        <item>Admin</item>
+        <item>User</item>
+    </string-array>
+    <string-array name="otpustil">
+        <item>Taatan</item>
+    </string-array>
+</resources>

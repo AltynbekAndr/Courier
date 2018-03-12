@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kg.cs_soft.sklad">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:theme="@style/AppTheme2" />
+        <activity android:name=".OstatkiActivity"
+            android:theme="@style/AppTheme2" />
+        <activity android:name=".OtchetyActivity"
+            android:theme="@style/AppTheme2" />
+        <activity android:name=".PeremeshenieActivity"
+            android:theme="@style/AppTheme2" />
+        <activity android:name=".ProdajaActivity"
+            android:theme="@style/AppTheme2" />
+        <activity android:name=".ZakupActivity"
+            android:theme="@style/AppTheme2" />
+        <activity android:name=".NakladnyeActivity"
+            android:theme="@style/AppTheme2" />
+    </application>
+
+</manifest>
